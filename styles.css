@@ -371,3 +371,15 @@ template {
   flex-direction: row;
   width: 100vw;
 }
+
+.image-container,
+.form-container {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+}
+
+.image-container {
+  flex-direction: column;
+  align-items: center;
+}
