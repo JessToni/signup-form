@@ -348,3 +348,11 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: Vidaloka-Regular;
+  src: url(./fonts/Vidaloka-Regular.ttf);
+}
+
+h1 {
+  font-family: Vidaloka-Regular, sans-serif;
+}
