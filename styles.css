@@ -407,6 +407,10 @@ template {
   justify-content: center;
   position: absolute;
   z-index: 1;
-  padding-top: 250px;
+  width: 100%;
+  height: auto;
+  margin-top: 200px;
   gap: 15px;
+  background-color: rgb(11, 31, 40, 0.7);
+  box-sizing: border-box;
 }
