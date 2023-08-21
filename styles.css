@@ -358,12 +358,13 @@ template {
   src: url(./fonts/Roboto-Light.ttf);
 }
 
-.image-container h1 {
-  font-family: Vidaloka-Regular, serif;
+:root {
+  --main-font-family: "Roboto-Light, sans serif";
+  --secondary-font-family: "Vidaloka-Regular, serif"
 }
 
 .form-container h1 {
-  font-family: Roboto, sans-serif;
+  font-family: var(--main-font-family);
 }
 
 .container {
