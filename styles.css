@@ -353,6 +353,15 @@ template {
   src: url(./fonts/Vidaloka-Regular.ttf);
 }
 
-h1 {
-  font-family: Vidaloka-Regular, sans-serif;
+@font-face {
+  font-family: Roboto-Light;
+  src: url(./fonts/Roboto-Light.ttf);
+}
+
+.image-container h1 {
+  font-family: Vidaloka-Regular, serif;
+}
+
+.form-container h1 {
+  font-family: Roboto, sans-serif;
 }
