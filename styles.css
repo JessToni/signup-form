@@ -400,6 +400,7 @@ template {
 }
 
 .logo-header {
+  display: flex;
   position: absolute;
   z-index: 1;
   padding-top: 200px;
