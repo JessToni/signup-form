@@ -365,3 +365,9 @@ template {
 .form-container h1 {
   font-family: Roboto, sans-serif;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
