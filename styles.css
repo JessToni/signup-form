@@ -363,8 +363,13 @@ template {
   --secondary-font-family: "Vidaloka-Regular, serif"
 }
 
+/*Change text styling of HTML elements*/
 .form-container h1 {
   font-family: var(--main-font-family);
+}
+
+.logo-header h1 {
+  color: white;
 }
 
 .container {
@@ -389,10 +394,13 @@ template {
   position: relative;
 }
 
-.image-container .overlay {
+.overlay {
+  width: 100px;
+  height: auto;
+}
+
+.logo-header {
   position: absolute;
   z-index: 1;
   padding-top: 200px;
-  width: 100px;
-  height: auto;
 }
