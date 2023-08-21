@@ -369,7 +369,9 @@ template {
 }
 
 .logo-header h1 {
+  font-family: var(--main-font-family);
   color: white;
+  font-size: 50px;
 }
 
 .container {
@@ -395,13 +397,16 @@ template {
 }
 
 .overlay {
-  width: 100px;
+  width: 80px;
   height: auto;
 }
 
 .logo-header {
   display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   z-index: 1;
-  padding-top: 200px;
+  padding-top: 250px;
+  gap: 15px;
 }
