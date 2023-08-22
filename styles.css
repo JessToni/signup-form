@@ -410,6 +410,8 @@ template {
   width: 100%;
   height: auto;
   margin-top: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   gap: 15px;
   background-color: rgb(11, 31, 40, 0.7);
   box-sizing: border-box;
