@@ -390,12 +390,14 @@ template {
   justify-content: center;
   align-items: center;
   width: 60vw;
+  background-color: #FDEFF4;
 }
 
 .form-intro {
   max-width: 40rem;
   margin-left: 3rem;
   margin-right: 3rem;
+  color: #393436;
 }
 
 .image-container {
