@@ -364,15 +364,19 @@ template {
 }
 
 /*Change text styling of HTML elements*/
-.form-container h4 {
-  font-family: var(--secondary-font-family);
-}
 
 .logo-header h1 {
   font-family: var(--main-font-family);
   color: white;
   font-size: 50px;
 }
+
+.form-intro h4 {
+  font-family: var(--secondary-font-family);
+  font-size: 20px;
+}
+
+/*Styling and positioning elements*/
 
 .container {
   display: flex;
@@ -386,6 +390,12 @@ template {
   justify-content: center;
   align-items: center;
   width: 60vw;
+}
+
+.form-intro {
+  max-width: 40rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .image-container {
