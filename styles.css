@@ -376,6 +376,10 @@ template {
   font-size: 20px;
 }
 
+.form-intro h4:nth-child(2) {
+  letter-spacing: 1px;
+}
+
 /*Styling and positioning elements*/
 
 .container {
