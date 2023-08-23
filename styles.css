@@ -448,3 +448,8 @@ form {
   margin-right: 3rem;
   margin-bottom: 1rem;
 }
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+}
