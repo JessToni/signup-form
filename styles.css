@@ -364,7 +364,6 @@ template {
 }
 
 /*Change text styling of HTML elements*/
-
 .logo-header h1 {
   font-family: var(--main-font-family);
   color: white;
@@ -380,8 +379,7 @@ template {
   letter-spacing: 1px;
 }
 
-/*Styling and positioning the left side of the page*/
-
+/*Styling and positioning for containers*/
 .container {
   display: flex;
   flex-direction: row;
@@ -397,13 +395,6 @@ template {
   background-color: #FDEFF4;
 }
 
-.form-intro {
-  max-width: 40rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  color: #393436;
-}
-
 .image-container {
   display: flex;
   flex-direction: column;
@@ -413,6 +404,7 @@ template {
   position: relative;
 }
 
+/*Styling and positioning the left side of the page*/
 .overlay {
   width: 80px;
   height: auto;
@@ -435,6 +427,12 @@ template {
 }
 
 /*Styling and positioning of form elements*/
+.form-intro {
+  max-width: 40rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  color: #393436;
+}
 
 form {
   display: flex;
