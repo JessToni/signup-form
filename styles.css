@@ -437,7 +437,6 @@ template {
 
 form {
   display: flex;
-  flex-direction: column;
   width: 100%;
   height: auto;
   box-shadow: 0 2px 10px 1px lightgray;
