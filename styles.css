@@ -380,7 +380,7 @@ template {
   letter-spacing: 1px;
 }
 
-/*Styling and positioning elements*/
+/*Styling and positioning the left side of the page*/
 
 .container {
   display: flex;
@@ -432,4 +432,16 @@ template {
   gap: 15px;
   background-color: rgb(17, 19, 44, 0.5);
   box-sizing: border-box;
+}
+
+/*Styling and positioning of form elements*/
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  width: 100%;
+  height: auto;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
