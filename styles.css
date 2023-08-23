@@ -443,3 +443,8 @@ form {
   width: 100%;
   height: auto;
 }
+
+.form-content {
+  margin-left: 3rem;
+  margin-right: 3 rem;
+}
