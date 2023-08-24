@@ -383,11 +383,19 @@ template {
 .form-container {
   color: var(--form-text-color);
   font-family: var(--main-font-family);
-  font-weight: bold;
+}
+
+.form-container label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 3px;
 }
 
 .form-header > h4 {
+  color: #393436;
   font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bolder;
 }
 
 /*Styling and positioning for containers*/
@@ -464,6 +472,7 @@ form {
   margin-left: 3rem;
   margin-right: 3rem;
   margin-bottom: 2rem;
+  gap: 1.1rem;
 }
 
 .form-row {
