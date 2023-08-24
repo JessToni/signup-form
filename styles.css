@@ -361,6 +361,7 @@ template {
 :root {
   --main-font-family: Roboto-Light, sans serif;
   --secondary-font-family: Vidaloka-Regular, serif;
+  --form-text-color: #4a4346;
 }
 
 /*Change text styling of HTML elements*/
@@ -377,6 +378,16 @@ template {
 
 .form-intro h4:nth-child(2) {
   letter-spacing: 1px;
+}
+
+.form-container {
+  color: var(--form-text-color);
+  font-family: var(--main-font-family);
+  font-weight: bold;
+}
+
+.form-header > h4 {
+  font-size: 20px;
 }
 
 /*Styling and positioning for containers*/
