@@ -374,6 +374,8 @@ template {
 .form-intro h4 {
   font-family: var(--secondary-font-family);
   font-size: 20px;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .form-intro h4:nth-child(2) {
@@ -447,9 +449,7 @@ template {
 
 /*Styling and positioning of form elements*/
 .form-intro {
-  max-width: 40rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  width: 100%;
   color: #393436;
   margin-bottom: 2rem;
 }
