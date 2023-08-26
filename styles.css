@@ -486,6 +486,8 @@ form {
   flex-direction: column;
 }
 
+/*Footer styling and positioning*/
+
 .footer {
   width: 100%;
   margin-top: 2.5rem;
@@ -498,4 +500,11 @@ form {
 
 .footer > button {
   margin-left: 3rem;
+  text-decoration: none;
+  background-color: rgb(17, 19, 44);
+  color: lightgrey;
+  padding: 12px 50px;
+  font-weight: 1000;
+  border-radius: 5px;
+  border: none;
 }
