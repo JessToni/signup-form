@@ -412,7 +412,7 @@ template {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60vw;
+  width: 70vw;
   background-color: #FDEFF4;
 }
 
@@ -420,7 +420,7 @@ template {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 40vw;
+  max-width: 30vw;
   overflow: hidden;
   position: relative;
 }
