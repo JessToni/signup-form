@@ -364,6 +364,12 @@ template {
   --form-text-color: #4a4346;
 }
 
+/*Remove default outline set on focus*/
+
+*:focus {
+  outline: none;
+}
+
 /*Change text styling of HTML elements*/
 .logo-header h1 {
   font-family: var(--main-font-family);
@@ -486,6 +492,12 @@ form {
   flex-direction: column;
 }
 
+input {
+  border-color: hsl(220, 13%, 91%);
+  border-style: solid;
+  border-width: 1px;
+}
+
 /*Footer styling and positioning*/
 
 .footer {
@@ -507,10 +519,4 @@ form {
   font-weight: 1000;
   border-radius: 5px;
   border: none;
-}
-
-input {
-  border-color: hsl(220, 13%, 91%);
-  border-style: solid;
-  border-width: 1px;
 }
