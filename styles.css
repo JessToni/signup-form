@@ -498,6 +498,7 @@ input {
   border-color: hsl(220, 13%, 91%);
   border-style: solid;
   border-width: 1.5px;
+  border-radius: 4px;
 }
 
 input[type="text"]:focus {
