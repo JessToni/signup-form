@@ -485,3 +485,17 @@ form {
   display: flex;
   flex-direction: column;
 }
+
+.footer {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.footer > p {
+  padding-top: 0.8em;
+  margin-left: 3rem;
+}
+
+.footer > button {
+  margin-left: 3rem;
+}
