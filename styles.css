@@ -519,6 +519,10 @@ input:focus {
   border-color: #2f94ba;
 }
 
+input[type="password"]:invalid {
+  border-color: var(--error-color);
+}
+
 /*Footer styling and positioning*/
 
 .footer {
