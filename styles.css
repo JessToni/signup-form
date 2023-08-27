@@ -348,13 +348,6 @@ template {
   display: none;
 }
 
-/*Disable scroll on page*/
-html, body {
-  height: 100%;
-  overflow: hidden;
-}
-
-
 @font-face {
   font-family: Vidaloka-Regular;
   src: url(./fonts/Vidaloka-Regular.ttf);
