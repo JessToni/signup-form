@@ -504,6 +504,11 @@ form {
   flex-direction: column;
 }
 
+.error {
+  margin-top: 2px;
+  font-size: 12px;
+  color: var(--error-color);
+}
 /*On focus styling*/
 
 input {
