@@ -348,6 +348,13 @@ template {
   display: none;
 }
 
+/*Disable scroll on page*/
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+
 @font-face {
   font-family: Vidaloka-Regular;
   src: url(./fonts/Vidaloka-Regular.ttf);
@@ -421,6 +428,11 @@ template {
   align-items: center;
   width: 70vw;
   background-color: #FDEFF4;
+}
+
+.image-container img {
+  max-height: 100vh;
+  width: auto;
 }
 
 .image-container {
