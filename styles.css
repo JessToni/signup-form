@@ -443,6 +443,11 @@ template {
   height: auto;
 }
 
+.logo-header img {
+  width: 100px;
+  height: auto;
+}
+
 .logo-header {
   display: flex;
   align-items: center;
