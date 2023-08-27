@@ -540,6 +540,10 @@ input[type="password"]:invalid {
   margin-left: 3rem;
 }
 
+.footer a {
+  text-decoration: none;
+}
+
 .footer > button {
   margin-left: 3rem;
   text-decoration: none;
