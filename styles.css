@@ -362,6 +362,7 @@ template {
   --main-font-family: Roboto-Light, sans serif;
   --secondary-font-family: Vidaloka-Regular, serif;
   --form-text-color: #4a4346;
+  --error-color: #FE0001;
 }
 
 /*Remove default outline set on focus*/
